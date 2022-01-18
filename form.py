@@ -3,7 +3,7 @@ import tempfile
 from flask import Flask, request, render_template, redirect, url_for, send_file
 from google.cloud import storage, firestore
 
-BUCKET_NAME = "<YOUR-BUCKET-NAME>"
+BUCKET_NAME = "form-338603-data"
 
 storage_client = storage.Client()
 firestore_client = firestore.Client()
